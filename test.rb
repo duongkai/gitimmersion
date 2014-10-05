@@ -7,5 +7,7 @@ end
 
 puts "Total = #{sum}"
 
-a = 1..10
-b = a.map {|x| x * x}
+b = (1..10).map {|x| x * x}
+square_sum = 0
+b.each {|x| square_sum += x}
+puts "Square of sum = #{square_sum}"
