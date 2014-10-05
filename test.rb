@@ -1,3 +1,8 @@
 puts "Hello World"
 
-(1..10).each {|x| puts x}
+sum = 0
+(1..10).each do |x|
+    sum += x
+end
+
+puts "Total = #{sum}"
