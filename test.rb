@@ -14,4 +14,4 @@ puts "Square of sum = #{square_sum}"
 
 square_sum = 0
 (1..10).map {|x| x * x}.each {|x| square_sum += x}
-puts "New square sum = #{square_sum}"
+puts "square sum = #{square_sum}"
