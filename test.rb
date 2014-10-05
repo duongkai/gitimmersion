@@ -9,4 +9,3 @@ puts "Total = #{sum}"
 
 a = 1..10
 b = a.map {|x| x * x}
-puts b
